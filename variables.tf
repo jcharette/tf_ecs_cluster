@@ -3,6 +3,10 @@ variable "name" {
   type        = "string"
 }
 
+variable "project" {
+  description = "Name of Project for log stream"
+}
+
 variable "instance_type" {
   description = "Type of instance to provision"
   default     = "m3.large"
