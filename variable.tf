@@ -15,7 +15,6 @@ variable "aws_region" {
 
 variable "key_name" {
   description = "AWS key to use for instances"
-  default     = "vbu-ox"
 }
 
 variable "vpc_id" {

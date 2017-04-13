@@ -1,6 +1,6 @@
 #log resource for the ECS agents
 resource "aws_cloudwatch_log_group" "ecs" {
-  name = "ox/ecs-agent-${var.name}"
+  name = "${var.name}/ecs-agent-${var.name}"
 }
 
 # generate instance profile from template
